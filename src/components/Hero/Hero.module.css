@@ -1,0 +1,45 @@
+.heroContainer {
+  display: flex;
+  align-items: center;
+  padding: 90px 20px;
+  gap: 60px;
+  background-image: url(../../assets/background-hero.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  & .secaoDireita {
+    & .content {
+      & h1 {
+        color: #272221;
+        font-size: 46px;
+        font-weight: 800;
+        line-height: 130%;
+      }
+
+      & p {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 130%;
+        margin-top: 16px;
+      }
+    }
+
+    & .vantagens {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px 40px;
+      margin-top: 60px;
+
+      & > div {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        min-width: 220px;
+
+        & p {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}

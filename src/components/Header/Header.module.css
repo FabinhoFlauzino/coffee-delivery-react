@@ -1,0 +1,34 @@
+.headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 1rem;
+
+  &>img {
+    width: 90px;
+    height: 40px;
+  }
+
+  & .actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    & .location {
+      display: flex;
+      padding: 8px;
+      justify-content: center;
+      align-items: center;
+      gap: 4px;
+
+      border-radius: 6px;
+      background: #EBE5F9;
+
+      & span {
+        color: #4B2995;
+        font-size: .875rem;
+        font-weight: 600;
+      }
+    }
+  }
+}
